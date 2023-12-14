@@ -18,9 +18,10 @@ body{
    
    
 }
-/*html{
-    font-size: 62.5%;
-}*/
+html{
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -54,7 +55,7 @@ body{
     background-color: rgba(255, 255, 255, 0.7);
     padding: 0.5rem;
     opacity: 0.9;
-    margin: 3rem;
+    margin: 8rem;
 }
 .person-name{
     font-size: 5rem;
@@ -99,7 +100,7 @@ body{
     margin: 0 5rem;
     position: relative;
     transition: color 0.2s;
-    padding: 1rem 1.5rem 1rem 1.5rem;
+    padding: 1rem;
 }
 .change.navbar-link{
     color: rgb(234, 43, 106);
@@ -455,10 +456,16 @@ body{
     color: white;
     font-family:'MADE soulmaze san-seif';
 }
+/* end of section-5 */
 
 
+/* respnsive */
+@media(max-width: 1200pxpx){
+    
+}
+
+/*end of  respnsive */
 
     
-/* end of section-5 */
 
     
