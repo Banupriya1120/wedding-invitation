@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
@@ -24,12 +25,15 @@
         </section>
         <!--end of section 1-->
         <!--nav bar-->
-        <nav class="navbar">
-            <a href="#section-1" class="navbar-link">Our Wedding</a>
-            <a href="#section-3" class="navbar-link">Save the Date</a>
-            <a href="#section-4" class="navbar-link">Venue </a>
-            <a href="#" class="navbar-link">Gallery</a>
-            <a href="#section-5 " class="navbar-link">Contact</a>
+        <nav class="navbar bg-body-tertiary nav-item sticky-top">
+            <div class="container-fluid nav nav-underline">
+                <a href="#section-1" class="navbar-brand nav-link">Our Wedding</a>
+                <a href="#section-3" class="navbar-brand nav-link">Save the Date</a>
+                <a href="#section-4" class="navbar-brand nav-link">Venue </a>
+                <a href="#"          class="navbar-brand nav-link">Gallery</a>
+                <a href="#section-5 " class="navbar-brand nav-link">Contact</a>
+            </div>
+            
         </nav>
 
         <!--end of nav bar-->
@@ -112,7 +116,7 @@
             <h1 class="section-4-heading">Venue</h1>
             <img src="images/bg4.jpeg" alt="deva_madhu"  class="person-img"/>
 
-            <div class="venue">
+            <div class=" container venue">
 
                 <h2 class="venue-heading">Click here for direction of the Venue</h2>
                 <p class="venue-paragaph">                <i class="	fas fa-map-marker-alt"></i>
@@ -167,5 +171,6 @@
         
     </div>
     <script src="script.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script></body>
 </html>
