@@ -7,10 +7,10 @@ document.querySelectorAll(".detail-btn").forEach(btn =>
 
 })
 
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector(".navbar  bg-body-tertiary nav-item sticky-top");
 const navbarOffsetTop = navbar.offsetTop ;
 const sections = document.querySelectorAll("section");
-const navbarLinks = document.querySelectorAll(".navbar-link");
+const navbarLinks = document.querySelectorAll(".navbar-brand nav-link");
 
 
 
